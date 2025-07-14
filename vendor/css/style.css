@@ -1,0 +1,108 @@
+:root{
+    --primary-color: rgb(28, 43, 53);
+    --secondary-color: rgb(255, 255, 255);
+    --text-color: rgb(0, 0, 0);
+}
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+    background-color: var(--secondary-color);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+}
+
+.section1{
+    height: 500px;
+    background-image: url(./vendor/images/abstract-technology-geometric-polygonal-mesh-lines-background-abstract-network-technology-geometric-dots-digital-technology-with-plexus-background-vector-illustration_561158-1605.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: large;
+}
+
+.section2{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.section2_element{
+    background: #c4c4c4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    flex-grow: 1;
+    flex-basis: 200px;
+}
+
+.section3{
+    height: 500px;
+    background-image: url(./vendor/images/pexels-mikhail-nilov-6894103.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.section3_1{
+    height: 500px;
+    width: 50%;
+    color: white;
+}
+
+.section3_2{
+    height: 500px;
+    width: 50%;
+    background-color: white;
+    color: black;
+}
+
+
+.section4{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.section5{
+    height: 500px;
+    background-image: url(./vendor/images/pexels-olly-3769021.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: scroll;
+    backdrop-filter: blur(5px);
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
