@@ -21,7 +21,7 @@ body{
 
 .section1{
     height: 500px;
-    background-image: url(./vendor/images/abstract-technology-geometric-polygonal-mesh-lines-background-abstract-network-technology-geometric-dots-digital-technology-with-plexus-background-vector-illustration_561158-1605.jpg);
+    background-image: url(../images/image1.jpg);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -53,7 +53,7 @@ body{
 
 .section3{
     height: 500px;
-    background-image: url(./vendor/images/pexels-mikhail-nilov-6894103.jpg);
+    background-image: url(../images/image2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -93,7 +93,7 @@ body{
 
 .section5{
     height: 500px;
-    background-image: url(./vendor/images/pexels-olly-3769021.jpg);
+    background-image: url(../images/image3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
